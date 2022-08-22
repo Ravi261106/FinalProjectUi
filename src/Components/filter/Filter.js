@@ -31,14 +31,14 @@ class Filter extends React.Component {
         axios(
             {
                 method: 'GET',
-                url: 'http://localhost:3000/citylist/getcitylist',
+                url: 'https://msassignment8.herokuapp.com/citylist/getcitylist',
                 headers: { 'Content-Type': 'application/json' }
             }
         ).then(response => this.setState({ locationValues: response.data })).catch()
         axios(
             {
                 method: 'GET',
-                url: 'http://localhost:3000/restaurant/getRestaurants',
+                url: 'https://msassignment8.herokuapp.com/restaurant/getRestaurants',
                 headers: { 'Content-Type': 'application/json' }
             }
         ).then(response => this.setState({ restaurantData: response.data })).catch()
@@ -48,7 +48,7 @@ class Filter extends React.Component {
         axios(
             {
                 method: 'GET',
-                url: 'http://localhost:3000/citylist/getcitylist',
+                url: 'https://msassignment8.herokuapp.com/citylist/getcitylist',
                 header: { 'Content-Type': 'application/json' }
             }
         ).then((res) => {
@@ -66,7 +66,7 @@ class Filter extends React.Component {
         axios(
             {
                 method: 'GET',
-                url: 'http://localhost:3000/restaurant/getRestaurants',
+                url: 'https://msassignment8.herokuapp.com/restaurant/getRestaurants',
                 headers: { 'Content-Type': 'application/json' }
             }
         ).then(response => this.setState({ restaurantData: response.data })).catch()

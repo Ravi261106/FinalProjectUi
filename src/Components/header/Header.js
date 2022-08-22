@@ -83,7 +83,7 @@ class Header extends Component {
     }
     axios({
       method: 'POST',
-      url: "http://localhost:3000/auth/login",
+      url: "https://msassignment8.herokuapp.com/auth/login",
       headers: { 'Content-Type': 'application/json' },
       data: req
     }).then(result => {
@@ -130,7 +130,7 @@ class Header extends Component {
     }
     axios({
       method: 'POST',
-      url: "http://localhost:3000/auth/signUp",
+      url: "https://msassignment8.herokuapp.com/auth/signUp",
       headers: { 'Content-Type': 'application/json' },
       data: req
     }).then(result => {
