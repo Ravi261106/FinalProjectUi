@@ -1,0 +1,136 @@
+.header
+{
+    background-color: #f6e4e4;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+    z-index: 10;
+
+
+}
+.logo1
+{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px 8px 8px;
+
+    font-family: Poppins;
+    font-weight: bold;
+    color:#ce0505;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: right;
+}
+.logo1:hover
+{
+    transform: scale(1.1,1.1);
+    
+}
+
+
+.btn-transperant{
+   
+    background-color: transparent;
+    margin: .6rem;
+    font-size:1.4rem;
+    font-family: Poppins;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.btn-Login{
+    position: absolute;
+    margin-right: 2rem;
+    cursor: pointer;
+    bottom:5px;
+    right: 200px;
+    padding: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
+
+    border: 1px solid white;
+    border-radius: .4rem;
+    font-size: 15px;
+    
+    background-color: #535d64
+}
+.btn-Createaccount{
+    position: absolute;
+    bottom:5px;
+    
+    border: 1px solid white;
+    padding: .6rem;
+    border-radius: .4rem;
+    font-size: 15px;
+    background-color: #535d64
+    
+}
+
+.loginpart{
+    text-align: right;
+    
+}
+
+.form input {
+    margin-top: 10px;
+    height: 40px
+}
+
+.text-white {
+    font-size:18px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logoutbutton {
+    border: 2px solid white;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px
+}
+
+.logup{
+    position: relative;
+    bottom: 450px;
+    right: 10px;
+    /* color: transparent; */
+    width: 102px;
+}
+.signup{
+    position: relative;
+    bottom: 450px;
+    right: 30px;
+    /* color: transparent; */
+    width: 102px;
+    background-image: transparent;
+}
+ 
+.cancel1{
+    position: absolute;
+    top:196px;
+    padding: 10px;
+}
+.cancel2{
+    position: absolute;
+    top:292px;
+    padding: 10px;
+}
+.pagelog{
+    background:#535d64
+}
+.pagesign{
+    background:#535d64
+    
+}
