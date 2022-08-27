@@ -21,6 +21,7 @@ class Home extends React.Component {
             {
                 method: 'GET',
                 url: 'https://msassignment8.herokuapp.com/citylist/getcitylist',
+                // url: 'http://localhost:3000/citylist/getcitylist',
                 headers: { 'Content-Type': 'application/json' }
             }
         ).then(response => this.setState({ location: response.data })).catch()
@@ -28,6 +29,7 @@ class Home extends React.Component {
             {
                 method: 'GET',
                 url: 'https://msassignment8.herokuapp.com/meals/getMeals',
+                // url: 'http://localhost:3000/meals/getMeals',
                 headers: { 'Content-Type': 'application/json' }
             }
         ).then(response => this.setState({ mealType: response.data })).catch()

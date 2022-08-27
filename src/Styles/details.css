@@ -376,3 +376,9 @@ transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 .btn{
   float: right;
   ;}
+  .order{
+    position: absolute;
+    right:25px;
+    background: rgb(72, 72, 115);
+    color: #fff
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import '../../Styles/details.css';
 import queryString from 'query-string';
+import { Link } from 'react-router-dom';
 
 // Class Component
 class Details extends React.Component {
@@ -20,6 +21,7 @@ class Details extends React.Component {
             {
                 method: 'GET',
                 url: `https://msassignment8.herokuapp.com/restaurant/getRestaurantById/${restaurantId}`,
+                // url: `http://localhost:3000/restaurant/getRestaurantById/${restaurantId}`,
                 headers: { 'Content-Type': 'application/json' }
             }
         ).then(response => this.setState({ restaurantData: response.data })).catch()
@@ -58,6 +60,7 @@ class Details extends React.Component {
                     </div>
                 </div>
             </div>
+                        <Link to='/cart'><button className="btn btn-transparent order">Order Now</button></Link>
         </div>);
     }
 }

@@ -23,6 +23,7 @@ class Wallpaper extends React.Component {
       {
         method: 'GET',
         url: `https://msassignment8.herokuapp.com/restaurant/getRestaurantByName?name=${locationName}`,
+        // url: `http://localhost:3000/restaurant/getRestaurantByName?name=${locationName}`,
         headers: { 'Content-Type': 'application/json' }
       }
     ).then(response => this.setState({ restaurants: response.data })).catch()
@@ -67,7 +68,7 @@ class Wallpaper extends React.Component {
   render() {
     const { locationValues } = this.props;
     return (<div className="app">
-      <img src="./Images/Home_Pic.png" className="MainPic" alt="" />
+      <img src="./Images/Home_Pic.png" className="MainPic " alt="" />
       <div>
         <b className="logo">e!</b>
         <Link to='/header'><button className="btn btn-transparent logup">Login</button></Link>

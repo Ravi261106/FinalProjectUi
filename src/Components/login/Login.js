@@ -19,8 +19,10 @@ const history = useHistory()
     const login =()=>{
         axios.post("http://localhost:6969/Login",user)
         .then(res=>{alert(res.data.message)
+            console.log(res.data)
         setLoginUser(res.data.user)
     history.push("/")})
+    localStorage.setItem("user", JSON.stringify(res.data.user)  )
     }
     return (
         <>

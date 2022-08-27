@@ -32,6 +32,7 @@ class Filter extends React.Component {
             {
                 method: 'GET',
                 url: 'https://msassignment8.herokuapp.com/citylist/getcitylist',
+                // url: 'http://localhost:3000/citylist/getcitylist',
                 headers: { 'Content-Type': 'application/json' }
             }
         ).then(response => this.setState({ locationValues: response.data })).catch()
@@ -39,6 +40,7 @@ class Filter extends React.Component {
             {
                 method: 'GET',
                 url: 'https://msassignment8.herokuapp.com/restaurant/getRestaurants',
+                // url: 'http://localhost:3000/restaurant/getRestaurants',
                 headers: { 'Content-Type': 'application/json' }
             }
         ).then(response => this.setState({ restaurantData: response.data })).catch()
@@ -49,6 +51,7 @@ class Filter extends React.Component {
             {
                 method: 'GET',
                 url: 'https://msassignment8.herokuapp.com/citylist/getcitylist',
+                // url: 'http://localhost:3000/citylist/getcitylist',
                 header: { 'Content-Type': 'application/json' }
             }
         ).then((res) => {
@@ -67,6 +70,7 @@ class Filter extends React.Component {
             {
                 method: 'GET',
                 url: 'https://msassignment8.herokuapp.com/restaurant/getRestaurants',
+                // url: 'http://localhost:3000/restaurant/getRestaurants',
                 headers: { 'Content-Type': 'application/json' }
             }
         ).then(response => this.setState({ restaurantData: response.data })).catch()

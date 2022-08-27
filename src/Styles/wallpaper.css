@@ -14,7 +14,8 @@
     border-right: none;
     background-color: #ffffffe8;
     border-radius: 0.5rem;
-    color:#120e0e
+    color:#120e0e;
+    cursor: pointer;
 }
 
 .locationSelector {
@@ -41,6 +42,8 @@
 }
 
 .locationDropdown {
+    position:relative;
+    right:33px;
     height: 40px;
     width: 245px;
     color: #605c5c;

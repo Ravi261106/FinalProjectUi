@@ -63,6 +63,7 @@
 .btn-Createaccount{
     position: absolute;
     bottom:5px;
+    right:30px;
     
     border: 1px solid white;
     padding: .6rem;

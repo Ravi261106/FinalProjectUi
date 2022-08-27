@@ -11,10 +11,10 @@
     color:white;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.53;
-  letter-spacing: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
 }
 .quicksearch {
 width: 400px;
